@@ -1,0 +1,139 @@
+/* * {
+    box-shadow: 0 0 1px #f90;
+} */
+
+::placeholder {
+    color: #A5A7A7;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.header {
+    background-color: #F7F7F7;
+}
+
+.header-img {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.search-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 700px;
+    height: 38px;
+    border-radius: 8px;
+    border-color: #ECECEC;
+    border-style: solid;
+    box-shadow: 1px 1px 6px -2px #000000;
+    outline: none;
+
+}
+
+.bold-text {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-top: 30px;
+    color: #353748;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.light-text {
+    font-family: sans-serif;
+    text-align: center;
+    color: #353748;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.benefit-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-wrapper p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #353748;
+}
+
+.benefit-wrapper--tracker {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn1 {
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2B55CA;
+    color: #F7F7F7;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn2 {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2B55CA;
+    color: #F7F7F7;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn2:hover {
+    background-color: #A5A7A7;
+}
+
+.btn1:hover {
+    background-color: #A5A7A7;
+}
+
+.light-text-2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #353748;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#grad {
+
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 62%, rgba(190, 194, 195, 1) 100%);
+}
